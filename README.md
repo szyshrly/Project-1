@@ -1,0 +1,1 @@
+Project-1: This webpage will exhibit a fictional record store, Subterranean Activities. I will be using the logo from my own company and photos from free outside sources. 
