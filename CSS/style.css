@@ -1,16 +1,19 @@
 body { margin: 0; font-family: Verdana, sans-serif; color: rgb(255, 255, 255); }
 
-header { width: 100%; height: 30px; background: whitesmoke; margin-top: 0px; }
+header { width: 100%; height: 30px; background: black; margin-top: 0px; }
     .social { margin-left: 20px; padding-top: 2px; }
-    .social a { margin: 7px; color: #0D0000; font-size: 1rem; }
-    .social a:hover { color: #585859; }
+    .social a { margin: 7px; color: white; font-size: 1rem; }
+    .social a:hover { color: #7E8A17; }
  
-section.banner { width: 100%; height: 450px; background-image: url(img/banner_3.jpg); padding: 5px 0; background-size: 100% 100%; }
-    #logo { display: flex; justify-content: center; align-items: center; }
+section.banner { width: 100%; height: 550px; background: url(/img/banner_1.jpg); padding: 5px 0; background-size: 100% 100%; }
+    #logo { display: flex; justify-content: center; align-items: center; margin-top: 5px; margin-bottom: 10px;}
     nav { text-align: center; }
-    nav li { display: inline; margin-right: 30px; font-weight: bold; font-size: 20px; }
-    nav li a { color: #0D0000; text-decoration: none; }
-    nav li a:hover { color: #585859; text-decoration: underline; }
+    nav li { display: inline; margin-right: 30px; font-weight: bold; font-size: 24px; }
+    nav li a { color: white; text-decoration: none; }
+    nav li a:hover { color: #7E8A17; text-decoration: underline; }
+
+section.map { width: 100%; height: 450px; background: rgb(255, 255, 255); }
+    #gmap { display: flex; justify-content: center; margin-top: 50px; }
 
 section.location { width: 100%; height: 550px; background: rgb(202, 202, 202); }
 
