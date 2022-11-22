@@ -1,8 +1,8 @@
 body { margin: 0; font-family: Verdana, sans-serif; color: rgb(255, 255, 255); }
 
 header { width: 100%; height: 30px; background: black; margin-top: 0px; }
-    .social { margin-left: 20px; padding-top: 2px; }
-    .social a { margin: 7px; color: white; font-size: 1rem; }
+    .social { margin-left: 20px; padding-top: 4px; }
+    .social a { margin: 7px; color: white; font-size: 1.5rem; }
     .social a:hover { color: #7E8A17; }
  
 section.banner { width: 100%; height: 475px; background: url(/img/banner_1.jpg); padding: 5px 0; background-size: 100% 100%; }
@@ -11,16 +11,21 @@ section.banner { width: 100%; height: 475px; background: url(/img/banner_1.jpg);
     nav { text-align: center; }
     nav li { display: inline; margin-right: 30px; font-weight: bold; font-size: 24px; }
     nav li a { color: white; text-decoration: none; }
+    nav li a:visited { color: white; }
+    nav li a:focus { color: #7E8A17; }
     nav li a:hover { color: #7E8A17; text-decoration: underline; }
+    nav li a:active { color: #7E8A17; }
+    
+  
 
 section.map { width: 100%; height: 450px; background: rgb(255, 255, 255); }
     #gmap { display: flex; justify-content: center; margin-top: 50px; }
     
 section.location { justify-content: center; width: 100%; height: 300px; margin: 0 auto 5px; padding: 5px 0; }
-    section.location h2, section.about h2 { font-family: 'Roboto Mono', monospace; font-weight: bold; color: black; }
+    section.location h2, section.about h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; }
     section.location p { color: black; font-size: 18px; margin-top: 50px; margin-left: 40px;}
     section.location .button { max-width: 150px; height: 40px; text-align: center; padding: 7px 5px 5px; margin: 5px 5px 0 0; background: black; margin-left: 40px; }
-    section.location .button a { color: rgb(255,255,255); text-decoration: none; font-weight: bold; }
+    section.location .button a { color: rgb(255,255,255); text-decoration: none; font-weight: bold; font-size: 18px; }
     section.location aside { width: 350px; height: 200px; float: left; text-align: left; margin-right: 22px; }
     
 
@@ -29,8 +34,9 @@ section.about { width: 100%; height: 500px; background: rgb(255, 255, 255); marg
     section.about p { width: 40%; float: left; color: black; font-size: 20px; line-height: 35px; margin-top: 10px; }
     
 
-section.subscribe { width: 100%; min-height: 200px; background: white;  }
-    section.subscribe h2 { font-family: 'Roboto Mono', monospace; font-weight: bold; color: black; text-align: center; margin-bottom: 5px; }
+section.subscribe { width: 100%; min-height: 200px; background: white; }
+    section.subscribe .line { margin-top: 20px;}
+    section.subscribe h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; text-align: center; margin-bottom: 5px; }
     section.subscribe p { color: black; font-size: 14px; text-align: center; margin-bottom: 10px; }
     section.subscribe input { width: 250px; height: 30px; margin-left: 38.5%; font-size: 18px; margin-bottom: 5px; }
     section.subscribe .button input { max-width: 150px; height: 35px; margin-left: 43%; font-family: 'Roboto Mono', monospace; color: white; font-size: 18px; background: black; border: none; }
@@ -74,11 +80,11 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.about p { width: 100%; }
     
     section.subscribe { width: 100%; height: auto; }
-        section.subscribe .line { margin-top: 850px;}
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 25%; margin-left: 38.5%; }
         section.subscribe .button input { width: 30%; margin-left: 45%; }
+
 
     section.bottom { width: 100%; }
 
@@ -123,7 +129,7 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.about p { width: 100%; }
     
     section.subscribe { width: 100%; height: auto; }
-        section.subscribe .line { margin-top: 750px;}
+        section.subscribe .line { margin-top: 20px;}
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 25%; margin-left: 36.75%; }
@@ -172,7 +178,6 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.about p { width: 100%; }
     
     section.subscribe { width: 100%; height: auto; }
-        section.subscribe .line { margin-top: 750px;}
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 25%; margin-left: 37%; }
@@ -221,11 +226,11 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.about p { width: 100%; }
     
     section.subscribe { width: 100%; height: auto; }
-        section.subscribe .line { margin-top: 750px;}
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 50%; margin-left: 25%; }
         section.subscribe .button input { width: 30%; font-size: 90%; margin-left: 35%; }
+
 
     section.bottom { width: 100%; }
 
@@ -268,12 +273,14 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
     section.about { width: 100%; height: auto; }
         section.about img { width: 100%; height: auto; margin-top: 5px; }
         section.about p { width: 100%; }
-    
-    section.subscribe { width: 100%; height: auto; }
-        section.subscribe h2 { margin-top: 5px; }
-        section.subscribe p { font-size: 80%; }
-        section.subscribe input { width: 50%; margin-left: 25%; }
-        section.subscribe .button input { width: 30%; font-size: 90%; margin-left: 35%; }
+
+    section.contact { width: 100%; height: auto; } 
+        section.contact h2 { }
+        section.contact p { }
+        #guest_name, #Guest_email { }
+        #guest_tel { font-size: 14px; }
+        #comments { }
+        #submit { width: 20%; font-size: 12px; } 
 
     section.bottom { width: 100%; margin-bottom: -16px; }
 
@@ -336,3 +343,17 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
 
 }
 
+section.events { width: 100%; height: 450px; background: rgb(255, 255, 255); }
+    section.events h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; margin-top: 20px; }
+    #rsd { display: flex; justify-content: center; margin-top: 50px; width: 500px; height: 300px; }
+
+
+
+section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); margin: 0 auto 0; padding: 15px 0; } 
+    section.contact h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; margin-bottom: 30px; }
+    section.contact p { font-size: 14px; margin-left: 10px; }
+    #guest_name, #Guest_email { width: 30%; height: 30px; font-size: 18px; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; }
+    #guest_tel { width: 20%; height: 30px; font-size: 18px; margin-left: 10px; margin-bottom: 20px; }
+    #comments { width: 30%; height: 150px; font-size: 18px; margin-left: 10px; }
+    #newsletter_signup { margin-left: 10px; }
+    #submit { width: 10%; background: black; color: white; font-family: 'Roboto Mono', monospace; font-size: 16px; margin-left: 10px; } 
