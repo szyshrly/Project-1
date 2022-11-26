@@ -40,7 +40,7 @@ section.events { width: 100%; height: 450px; background: rgb(255, 255, 255); }
     section.events h3 { width: 40%; float: right; color: black; font-size: 22px; line-height: 35px; margin-top: 100px;}
     section.events h3 a { color: black; }
     section.events p { width: 40%; float: right; color: black; font-size: 20px; line-height: 35px; margin-top: 10px; }
-section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); margin: 0 auto 0; padding: 15px 0; } 
+section.contact { width: 100%; height: 500px; background: rgb(255,255,255); margin: 0 auto 0; padding: 15px 0; } 
     section.contact h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; margin-bottom: 30px; }
     section.contact p { font-size: 14px; margin-left: 10px; }
     section.contact #guest_name, section.contact #Guest_email { width: 30%; height: 30px; font-size: 18px; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; }
@@ -52,20 +52,7 @@ section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); 
 .container { justify-content: space-around; width: 100%; }
 
 @media (max-width: 1200px) { 
-    body { }
-    header { }
-        .social { }
-        .social a { }
-        .social a:hover { }
     section.banner { width: 100%; height: 100%; }
-        #logo { }
-        #logo img { }
-        nav { }
-        nav li { }
-        nav li a { }
-        nav li a:hover { }
-        section.map { }
-        #gmap { }
     section.location { width: 100%; margin-bottom: 30px; }
         section.location h2, section.about h2 { margin-top: 5px;}
         section.location p { margin-top: 100px; margin-left: 0; font-size: 100%; }
@@ -82,26 +69,10 @@ section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); 
         section.subscribe .button input { width: 30%; margin-left: 45%; font-size: 18px;}
     section.bottom { width: 100%; }
     footer { width: 100%; height: 100%; }
-    footer a { }
-    footer a:hover { }
-    .line { }
     .container { width:100%; }
 }
 @media (max-width: 1199px) { 
-    body { }
-    header { }
-        .social { }
-        .social a { }
-        .social a:hover { }
     section.banner { width: 100%; height: 100%; }
-        #logo { }
-        #logo img { }
-        nav { }
-        nav li { }
-        nav li a { }
-        nav li a:hover { }
-        section.map { }
-        #gmap { }
     section.location { width: 100%; margin-bottom: 30px; }
         section.location h2, section.about h2 { margin-top: 5px;}
         section.location p { margin-top: 100px; margin-left: 0; font-size: 100%; }
@@ -118,27 +89,11 @@ section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); 
         section.subscribe input { width: 25%; margin-left: 36.75%; }
         section.subscribe .button input { width: 30%; margin-left: 41.5%; }
     section.bottom { width: 100%; }
-    footer { width: 100%; height: 100%; }
-    footer a { }
-    footer a:hover { }
-    .line { }       
+    footer { width: 100%; height: 100%; }     
     .container { width:100%; }
 }
 @media (max-width: 991px) { 
-    body { }
-    header { }
-        .social { }
-        .social a { }
-        .social a:hover { }
     section.banner { width: 100%; height: 100%; }
-        #logo { }
-        #logo img { }
-        nav { }
-        nav li { }
-        nav li a { }
-        nav li a:hover { }
-        section.map { }
-        #gmap { }
     section.location { width: 100%; }
         section.location h2, section.about h2 { margin-top: 5px;}
         section.location p { margin-top: 100px; margin-left: 0; font-size: 100%; }
@@ -154,27 +109,11 @@ section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); 
         section.subscribe input { width: 25%; margin-left: 37%; }
         section.subscribe .button input { width: 30%; margin-left: 38.75%; }
     section.bottom { width: 100%; }
-    footer { width: 100%; height: 100%; }
-    footer a { }
-    footer a:hover { }
-    .line { }     
+    footer { width: 100%; height: 100%; }  
     .container { width:100%; }
 }
 @media (max-width: 768px) { 
-    body { }
-    header { }
-        .social { }
-        .social a { }
-        .social a:hover { }
     section.banner { width: 100%; height: 100%; }
-        #logo { }
-        #logo img { }
-        nav { }
-        nav li { }
-        nav li a { }
-        nav li a:hover { }
-        section.map { }
-        #gmap { }
     section.location { width: 100%; }
         section.location h2, section.about h2 { margin-top: 5px;}
         section.location p { margin-top: 100px; margin-left: 0; font-size: 75%; }
@@ -190,27 +129,11 @@ section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); 
         section.subscribe input { width: 50%; margin-left: 25%; }
         section.subscribe .button input { width: 30%; margin-left: 35%; }
     section.bottom { width: 100%; }
-    footer { width: 100%; height: 100%; }
-    footer a { }
-    footer a:hover { }
-    .line { }      
+    footer { width: 100%; height: 100%; }    
     .container { width:100%; }
 }
 @media (max-width: 450px) { 
-    body { }
-    header { }
-        .social { }
-        .social a { }
-        .social a:hover { }
     section.banner { width: 100%; height: 100%; }
-        #logo { }
-        #logo img { }
-        nav { }
-        nav li { }
-        nav li a { }
-        nav li a:hover { }
-        section.map { }
-        #gmap { }
     section.location { width: 100%; }
         section.location h2, section.about h2 { margin-top: 5px;}
         section.location p { margin-top: 100px; margin-left: 0; font-size: 70%; }
@@ -227,26 +150,10 @@ section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); 
         section.subscribe .button input { width: 30%; margin-left: 35%; font-size: 18px; }
     section.bottom { width: 100%; margin-bottom: -16px; }
     footer { width: 100%; height: 100%; }
-    footer a { }
-    footer a:hover { }
-    .line { }   
     .container { width:100%; }
 }
 @media (max-width: 390px) { 
-    body { }
-    header { }
-        .social { }
-        .social a { }
-        .social a:hover { }
     section.banner { width: 100%; height: 100%; }
-        #logo { }
-        #logo img { }
-        nav { }
-        nav li { }
-        nav li a { }
-        nav li a:hover { }
-        section.map { }
-        #gmap { }
     section.location { width: 100%; height: 500px; }
         section.location h2, section.about h2 { margin-top: 5px;}
         section.location p { margin-top: 100px; margin-left: 0; font-size: 70%; }
@@ -263,9 +170,5 @@ section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); 
         section.subscribe .button input { width: 30%; font-size: 18px; margin-left: 35%; }
     section.bottom { width: 100%; }
     footer { width: 100%; height: 100%; }
-    footer a { }
-    footer a:hover { }
-    .line { }
-        
     .container { width:100%; }
 }
