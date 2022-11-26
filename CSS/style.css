@@ -25,7 +25,7 @@ section.location { justify-content: center; width: 100%; height: 300px; margin: 
     section.location h2, section.about h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; }
     section.location p { color: black; font-size: 18px; margin-top: 50px; margin-left: 40px;}
     section.location .button { max-width: 150px; height: 40px; text-align: center; padding: 7px 5px 5px; margin: 5px 5px 0 0; background: black; margin-left: 40px; }
-    section.location .button a { color: rgb(255,255,255); text-decoration: none; font-weight: bold; font-size: 18px; }
+    section.location .button a { color: rgb(255,255,255); text-decoration: none; font-weight: bold; font-size: 16px; }
     section.location aside { width: 350px; height: 200px; float: left; text-align: left; margin-right: 22px; }
     
 
@@ -83,7 +83,7 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 25%; margin-left: 38.5%; }
-        section.subscribe .button input { width: 30%; margin-left: 45%; }
+        section.subscribe .button input { width: 30%; margin-left: 45%; font-size: 18px;}
 
 
     section.bottom { width: 100%; }
@@ -133,7 +133,7 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 25%; margin-left: 36.75%; }
-        section.subscribe .button input { width: 30%; font-size: 90%; margin-left: 41.5%; }
+        section.subscribe .button input { width: 30%; margin-left: 41.5%; }
 
     section.bottom { width: 100%; }
 
@@ -181,7 +181,7 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 25%; margin-left: 37%; }
-        section.subscribe .button input { width: 30%; font-size: 90%; margin-left: 38.75%; }
+        section.subscribe .button input { width: 30%; margin-left: 38.75%; }
 
     section.bottom { width: 100%; }
 
@@ -229,7 +229,7 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 50%; margin-left: 25%; }
-        section.subscribe .button input { width: 30%; font-size: 90%; margin-left: 35%; }
+        section.subscribe .button input { width: 30%; margin-left: 35%; }
 
 
     section.bottom { width: 100%; }
@@ -274,13 +274,12 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.about img { width: 100%; height: auto; margin-top: 5px; }
         section.about p { width: 100%; }
 
-    section.contact { width: 100%; height: auto; } 
-        section.contact h2 { }
-        section.contact p { }
-        #guest_name, #Guest_email { }
-        #guest_tel { font-size: 14px; }
-        #comments { }
-        #submit { width: 20%; font-size: 12px; } 
+    section.subscribe { width: 100%; height: auto; }
+        section.subscribe h2 { margin-top: 5px; }
+        section.subscribe p { font-size: 80%; }
+        section.subscribe input { width: 50%; margin-left: 25%; }
+        section.subscribe .button input { width: 30%; margin-left: 35%; font-size: 18px; }
+
 
     section.bottom { width: 100%; margin-bottom: -16px; }
 
@@ -330,7 +329,7 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
         section.subscribe h2 { margin-top: 5px; }
         section.subscribe p { font-size: 80%; }
         section.subscribe input { width: 50%; margin-left: 25%; }
-        section.subscribe .button input { width: 30%; font-size: 90%; margin-left: 35%; }
+        section.subscribe .button input { width: 30%; font-size: 18px; margin-left: 35%; }
 
     section.bottom { width: 100%; }
 
@@ -345,15 +344,19 @@ footer { width: 100%; height: 20px; background: black; text-align: center; font-
 
 section.events { width: 100%; height: 450px; background: rgb(255, 255, 255); }
     section.events h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; margin-top: 20px; }
-    #rsd { display: flex; justify-content: center; margin-top: 50px; width: 500px; height: 300px; }
-
+    #rsd { display: flex; justify-content: center; float: left; margin-top: 50px; width: 500px; height: 300px; }
+    section.events h3 { width: 40%; float: right; color: black; font-size: 22px; line-height: 35px; margin-top: 100px;}
+    section.events h3 a { color: black; }
+    section.events p { width: 40%; float: right; color: black; font-size: 20px; line-height: 35px; margin-top: 10px; }
 
 
 section.contact { width: 100%; height: 500px; background: rgb:rgb(255,255,255); margin: 0 auto 0; padding: 15px 0; } 
     section.contact h2 { font-family: 'Roboto Mono', monospace; font-size: 30px; font-weight: bold; color: black; margin-bottom: 30px; }
     section.contact p { font-size: 14px; margin-left: 10px; }
-    #guest_name, #Guest_email { width: 30%; height: 30px; font-size: 18px; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; }
+    section.contact #guest_name, section.contact #Guest_email { width: 30%; height: 30px; font-size: 18px; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; }
     #guest_tel { width: 20%; height: 30px; font-size: 18px; margin-left: 10px; margin-bottom: 20px; }
     #comments { width: 30%; height: 150px; font-size: 18px; margin-left: 10px; }
     #newsletter_signup { margin-left: 10px; }
     #submit { width: 10%; background: black; color: white; font-family: 'Roboto Mono', monospace; font-size: 16px; margin-left: 10px; } 
+
+
